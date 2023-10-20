@@ -1,0 +1,59 @@
+.header {
+    height: 100%;
+    background-color: #2a2929;
+    color: #dedede;
+    width: 4%;
+    overflow: hidden;
+    transition: width 0.8s;
+    box-shadow: 3px 0 0 #1dc839;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+}
+
+.header::-webkit-scrollbar {
+   display: none;
+  }
+
+  
+  
+  
+
+.header:hover  {
+    width: 15%; /* Mude a largura quando .menuIcon ou .header estiver em hover */
+}
+
+.links {
+    margin-top: 1rem;
+}
+
+.menuIcon {
+    font-size: 35px;
+    margin: 0.5rem;
+}
+
+.linksContainer{
+display: flex;
+padding: 1rem 0.5rem;
+transition: 0.4s;
+align-items: center;
+}
+
+.linksContainer:hover{
+    background-color: #1dc839;
+    transition: 0.4s;
+    }
+
+.iconContainer {
+    align-items: center;
+}
+
+.iconLinks {
+    font-size: 25px;
+    margin-left: 0.4rem;
+}
+
+.logo {
+    margin-top: 0.5rem;
+}
